@@ -126,7 +126,6 @@ const qustionDataBase = [
   
   submitButton.addEventListener("click", () => {
     const checkAnswer = goCheckAnswer();
-    console.log(checkAnswer);
   
     if (checkAnswer === qustionDataBase[questionCount].ans) {
       score++;
